@@ -1,0 +1,41 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 350px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.price{
+    display: flex;
+    justify-content: space-evenly;
+}
+.price :last-child{
+    color: rgb(214, 20, 20);
+}
+.wrapper button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    transition: background-color 1s, color 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper button:hover{
+    background-color: #bb4140;
+    color: white;
+
+}
